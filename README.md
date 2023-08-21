@@ -5,4 +5,4 @@ The book I am using is [Hands-On Game Development Patterns with Unity 2019](http
 Each design patter is implemented in Separated Scene for better focus on each one of them.
 
 ## Patterns Scripts
-- [Prototype Pattern](../Assets/Scripts/Prototype)
+- [Prototype Pattern](/Assets/Scripts/Prototype)
