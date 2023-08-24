@@ -43,7 +43,7 @@ public class FactoryClient : MonoBehaviour
 
     public void GetNextNPC()
     {
-        currentNPC.GetComponent<INPC>().DestroyNPC();
+        Destroy(currentNPC);
         SpawnNPCs();
     }
 }

@@ -10,4 +10,8 @@ public class Farmer : MonoBehaviour, INPC
         bubble.SetActive(true);
         stats.text = "You gonna help me harvest the crops young man!";
     }
+     public void DestroyNPC()
+    {
+        Destroy(gameObject);
+    }
 }
