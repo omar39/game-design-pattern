@@ -10,8 +10,4 @@ public class Casual : MonoBehaviour, INPC
         bubble.SetActive(true);
         stats.text = "Hello there!\nHow is it going?";
     }
-     public void DestroyNPC()
-    {
-        Destroy(gameObject);
-    }
 }

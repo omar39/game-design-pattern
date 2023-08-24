@@ -10,8 +10,4 @@ public class BusinessMan : MonoBehaviour, INPC
         bubble.SetActive(true);
         stats.text = "Hello my friend!\nCheck my Linkedin for job offers.";
     }
-     public void DestroyNPC()
-    {
-        Destroy(gameObject);
-    }
 }

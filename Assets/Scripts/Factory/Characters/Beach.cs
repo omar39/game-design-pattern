@@ -11,8 +11,4 @@ public class Beach : MonoBehaviour, INPC
         stats.text = "Hello there!\nWanna have a swim?";
     }
 
-    public void DestroyNPC()
-    {
-        Destroy(gameObject);
-    }
 }
